@@ -71,6 +71,7 @@ a {
   }
 }
 
+
 .section {
   padding: 60px 80px;
 }
@@ -251,21 +252,26 @@ a {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    padding: 16px 30px;
-    flex-direction: column;
+  .home-compact {
+    padding: 40px 20px 30px;   
   }
 
-  .nav-links {
-    margin-top: 10px;
-    text-align: center;
+  .home-card {
+    width: 100%;              
+    padding: 25px 20px;        
   }
 
-  .section {
-    padding: 70px 30px;
+  .name {
+    font-size: 36px;           
   }
 
-  .hero h1 {
-    font-size: 42px;
+  .role {
+    font-size: 18px;
+  }
+
+  .intro {
+    font-size: 14px;
+    max-width: 100%;
   }
 }
+
