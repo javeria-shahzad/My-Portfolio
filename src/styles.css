@@ -63,13 +63,7 @@ a {
   background: linear-gradient(135deg, #60a5fa, #818cf8);
 }
 
-@media (max-width: 768px) {
-  .navbar-minimal {
-    flex-wrap: wrap;
-    justify-content: center;
-    top: 12px;
-  }
-}
+
 
 
 .section {
